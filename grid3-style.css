@@ -1,0 +1,111 @@
+.cover3{
+    background-color: rgb(12, 12, 12);
+    margin:15px;
+    padding:12px;
+    height: 300px;
+    width: 600px;
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-gap:0px;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+.number1{
+    background-color: rgb(18, 35, 182);
+    grid-column-start: 6;
+    grid-column-end:9;
+}
+
+.number2{
+    background-color: rgb(88, 4, 70);
+    grid-column-start:3;
+    grid-column-end:9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.number3{
+    background-color: rgb(18, 126, 36);
+    grid-column-start:3;
+    grid-column-end:6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.number4{
+    background-color: rgb(189, 236, 20);
+    grid-column-start:3;
+    grid-column-end:6; 
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+.number5{
+    background-color: rgb(250, 105, 9);
+    grid-column-start:1;
+    grid-column-end:3; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.number6{
+    background-color: rgb(223, 0, 0);
+    grid-column-start:6 ;
+    grid-column-end:13; 
+    grid-row-start:2;
+    grid-row-end: 5;
+}
+
+.number7{
+    background-color: rgb(0, 0, 0);
+    grid-column-start:1 ;
+    grid-column-end:6; 
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.number8{
+    background-color: rgb(97, 125, 148);
+    grid-column-start: 1;
+    grid-column-end:3; 
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.number9{
+    background-color: rgb(168, 48, 132);
+    grid-column-start:1 ;
+    grid-column-end:3; 
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+.number10{
+    background-color: rgb(18, 126, 36);
+    grid-column-start:9 ;
+    grid-column-end:13; 
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.number11{
+    background-color: rgb(189, 236, 20);
+    grid-column-start:9 ;
+    grid-column-end:13; 
+}
+
+.number12{
+    background-color: rgb(202, 103, 10);
+    grid-column-start:3;
+    grid-column-end:13; 
+    grid-row-start:6 ;
+    grid-row-end:7 ;
+}
